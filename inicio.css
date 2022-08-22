@@ -1,0 +1,58 @@
+header{
+    display: flex;
+    width: 1440px;
+    height: 117px;
+    left: 0px;
+    top: 0px;
+    background: #2E948A;
+
+}
+
+footer div h5 { 
+    display: flex;
+    justify-content: end;
+    left: 43.26%;
+    right: 51.81%;
+    top: 25.6%;
+    bottom: 34.3%;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+    background: #2E948A;
+    
+} 
+.rodape{
+    border: 2px;
+    display: flex;
+    width: 1440px;
+    height: 117px;
+    left: 8.89%;
+    right: 84.27%;
+    top: 25.6%;
+    bottom: 25.4%;
+    background: #419488;
+}
+
+footer div h5 { 
+    display: flex;
+    justify-content: end;
+    left: 43.26%;
+    right: 51.81%;
+    top: 25.6%;
+    bottom: 34.3%;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+    background: #2E948A;
+    
+}   
