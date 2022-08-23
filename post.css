@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.logo-header{
+
+    background-color: #2E948A;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 26px 0 20px 82px; 
+    gap:60%;
+    text-decoration: none;
+ 
+
+}
+
+.menu-header {
+    display: flex;
+    justify-content: center;
+    gap:42px;
+}
+
+a{
+    margin: 0 -6px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
