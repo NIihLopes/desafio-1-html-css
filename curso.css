@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.logo-header {
+    background-color: #2E948A;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 26px 0 20px 82px;
+    gap: 60%;
+    text-decoration: none;
+}
+
+.menu-header {
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+}
+
+a {
+    margin: 0 -6px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.investimento-in {
+
+    padding: 150px;
+    display: flex;
+
+}
+
+h1 {
+    display: flex;
+    justify-items: end;
+    color: #FF4081;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 63px;
+    width: 600px;
+    margin-left: 50px;
+  
+}
+
+.p-i {
+
+    position: absolute;
+    width: 421px;
+    height: 186px;
+    left: 202px;
+    top: 440px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+}
+
+.aula{
+background: #F7F7F7;
+}
