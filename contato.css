@@ -1,34 +1,181 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Ubuntu', sans-serif;
 
 }
 
-.logo-header{
+.logo-header {
 
     background-color: #2E948A;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding: 26px 0 20px 82px; 
-    gap:60%;
+    padding: 26px 0 20px 82px;
+    gap: 60%;
     text-decoration: none;
- 
+
 
 }
 
 .menu-header {
     display: flex;
     justify-content: center;
-    gap:42px;
+    gap: 42px;
 }
 
-a{
+a {
     margin: 0 -6px;
     text-decoration: none;
     color: white;
     text-transform: uppercase;
     font-weight: bold;
+
+}
+
+.imagem-contato {
+    display: flex;
+    position: absolute;
+    width: 444px;
+    height: 444px;
+    left: 833px;
+    top: 199px;
+}
+
+.title-contato {
+    padding: 150PX;
+    position: absolute;
+    left: -1%;
+    right: 68.95%;
+    top: 10%;
+    bottom: 89.02%;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #FF4081;
+}
+
+.formulario {
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    width: 496px;
+    height: 419px;
+    left: 136px;
+    top: 222px;
+
+}
+
+.nome-form {
+
+    display: flex;
+    justify-content: flex-start;
+    
+    position: absolute;
+    left: 0.6%;
+    right: 0%;
+    top: 21.48%;
+    bottom: 70.88%;
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    border-radius: 7px;
+    padding: 15px;
+}
+
+
+.email-form {
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    left: 0.6%;
+    right: 0%;
+    top: 32.7%;
+    bottom: 59.67%;
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    border-radius: 7px;
+    padding: 15px;
+    
+}
+
+.msg-form {
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    left: 0.6%;
+    right: 0%;
+    top: 43.68%;
+    bottom: 10.26%;
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    border-radius: 7px;
+    padding: 0 15px 150px;
+}
+
+.button-contato {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background: #FF4081;
+    border-radius: 60px;
+    text-align: center;
+    left: 10%;
+    right: 77.62%;
+    top: 93.32%;
+    bottom: -1%;
+    
+}
+
+.logo-footer {
+    margin-top: 50%;
+    background-color: #2E948A;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 26px 0 20px 82px;
+    text-decoration: none;
+
+}
+
+.menu-footer {
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 220px;
+    gap: 8px;
+
+}
+
+.botao {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-left: 430px;
+
+}
+
+.botao1 {
+
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 2px solid #FFFFFF;
+    border-radius: 80px;
+    padding: 3px 7px;
+
+
+}
+
+.botao2 {
+
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 2px solid #FFFFFF;
+    border-radius: 62px;
+    margin-top: 13px;
+    padding: 3px 12px;
 
 }

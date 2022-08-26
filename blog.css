@@ -1,30 +1,31 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Ubuntu', sans-serif;
-
+    width: 100%;
 }
 
-.logo-header{
+.logo-header {
 
     background-color: #2E948A;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding: 26px 0 20px 82px; 
-    gap:60%;
+    padding: 26px 0 20px 40px;
+    gap: 50%;
     text-decoration: none;
- 
+    width: 100%;;
+
 
 }
 
 .menu-header {
     display: flex;
     justify-content: center;
-    gap:42px;
+    gap: 10px;
 }
 
-a{
+a {
     margin: 0 -6px;
     text-decoration: none;
     color: white;
@@ -32,3 +33,165 @@ a{
     font-weight: bold;
 
 }
+
+.mais-conteudo {
+    display: flex;
+    align-items: center;
+    margin: 100px;
+}
+
+.mais-conteudo img {
+
+
+    position: absolute;
+    width: 405px;
+    height: 405px;
+    left: 825px;
+    top: 165px;
+}
+
+h1 {
+    color: #009688;
+    position: absolute;
+    width: 512px;
+    height: 108px;
+    left: 239px;
+    top: 239px;
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 54px;
+
+}
+
+.text-titulo {
+
+    width: 461px;
+    height: 110px;
+    left: 250px;
+    top: 387 px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    padding: 150px 0 0 0;
+    margin-left: 140px;
+}
+
+.conteudo1 {
+
+    background: #E5E5E5;
+    width: 100%;
+    padding: 16px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+
+    gap: 20px;
+}
+
+
+h3 {
+    color: #FF4081;
+    padding: 19px 0;
+
+}
+
+.c-1 {
+    width: 100%;
+    max-width: 400px;
+    margin: 32px;
+    text-align: center;
+
+}
+
+.c-2 {
+    width: 100%;
+    max-width: 400px;
+    margin: 32px;
+    text-align: center;
+}
+
+.c-3 {
+    width: 100%;
+    max-width: 400px;
+    margin: 32px;
+    text-align: center;
+}
+
+.c-4 {
+    width: 100%;
+    max-width: 400px;
+    margin: 32px;
+    text-align: center;
+}
+
+.c-5 {
+    width: 100%;
+    max-width: 400px;
+    margin: 32px;
+    text-align: center;
+}
+
+.c-6 {
+    width: 100%;
+    max-width: 400px;
+    margin: 32px;
+    text-align: center;
+}
+
+.logo-footer {
+
+    background-color: #2E948A;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 26px 0 20px 82px;
+    text-decoration: none;
+
+}
+
+.menu-footer {
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 220px;
+    gap: 8px;
+    margin-right: -400px;
+
+}
+
+.botao {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-left: 430px;
+
+}
+
+.botao1 {
+
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 2px solid #FFFFFF;
+    border-radius: 80px;
+    padding: 3px 28px;
+
+
+}
+
+.botao2 {
+
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 2px solid #FFFFFF;
+    border-radius: 62px;
+    margin-top: 13px;
+    padding: 3px 12px;
+
+}
+

@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Ubuntu', sans-serif;
+
 }
 
 .logo-header {
@@ -32,6 +33,10 @@ a {
 
     padding: 150px;
     display: flex;
+    width: 929px;
+    height: 381px;
+    left: 202px;
+    top: 197px;
 
 }
 
@@ -46,25 +51,146 @@ h1 {
     line-height: 63px;
     width: 600px;
     margin-left: 50px;
-  
+
 }
 
 .p-i {
 
     position: absolute;
+    display: flex;
+    align-items: center;
     width: 421px;
     height: 186px;
     left: 202px;
     top: 440px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+
+}
+
+.aula {
+    background: #F7F7F7;
+
+
+}
+
+h2 {
+    color: #FF4081;
+    width: 106px;
+    height: 40px;
+    left: 750px;
+    top: 1146px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 0 0 20px 0;
+
+}
+.linha{
+    display: flex;
+    align-items: baseline;
+    margin: 68px;
+    width: 1244px;
+    height: 3px;
+    left: 98px;
+    top: 1068px;
+   
+    background: #C4C4C4; 
+}
+.aula1 {
+    display: flex;
+    align-items: center;
+    padding: 117px;
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
     line-height: 23px;
+    border-left: ;
+}
+ 
+
+
+.aula2 {
     display: flex;
     align-items: center;
+    padding: 117px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+
+
 }
 
-.aula{
-background: #F7F7F7;
+.aula3 {
+
+    display: flex;
+    align-items: center;
+    padding: 117px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+
+}
+
+.logo-footer {
+
+    background-color: #2E948A;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 26px 0 20px 82px;
+    text-decoration: none;
+
+}
+
+.menu-footer {
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 220px;
+    gap: 8px;
+
+}
+
+.botao {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-left: 430px;
+
+}
+
+.botao1 {
+
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 2px solid #FFFFFF;
+    border-radius: 80px;
+    padding: 3px 7px;
+
+
+}
+
+.botao2 {
+
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 2px solid #FFFFFF;
+    border-radius: 62px;
+    margin-top: 13px;
+    padding: 3px 12px;
+
 }
